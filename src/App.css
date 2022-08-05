@@ -5,6 +5,7 @@
 
 h2 {
   text-align: center;
+  margin-top: 50px;
 }
 
 article {
@@ -16,7 +17,7 @@ article {
 
 form {
   display: grid;
-  margin: 30px;
+  margin: 30px 10% 5% ;
 }
 
 input, textarea {
@@ -43,4 +44,8 @@ button {
 .reactionButton {
   background-color: transparent;
   color: #000;
+}
+
+.disabled {
+  background-color: rgb(98, 109, 98);
 }
