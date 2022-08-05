@@ -49,3 +49,36 @@ button {
 .disabled {
   background-color: rgb(98, 109, 98);
 }
+
+.Header {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: rgb(250, 244, 236);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-flex;
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: green;
+}
